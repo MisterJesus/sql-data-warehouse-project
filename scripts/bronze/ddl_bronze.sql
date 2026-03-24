@@ -11,9 +11,6 @@ Script Purpose:
 ===========================================================================
 */
 
--- This is an execution for the script made from the query below --
-EXEC bronze.load_bronze;		-- If code below has been executed then execute this only for succeeding executions. If not, hightlight entire code below then execute once.  --
-
 -- Data Ingestion Script --
 
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS	-- Making a script since this is a query you will be running everyday to grab updated data --
